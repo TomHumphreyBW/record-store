@@ -5,4 +5,9 @@
   left: 0;
   right: 0;
   padding: 20px;
+  display: flex;
+}
+
+div {
+  border: 1px solid black;
 }

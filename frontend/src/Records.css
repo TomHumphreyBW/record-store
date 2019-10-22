@@ -1,3 +1,8 @@
 .Records {
     padding: 10px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
