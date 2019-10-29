@@ -2,4 +2,38 @@
     width: 250px;
     height: 250px;
     margin: 14px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.Record div {
+    border: 1px solid black;
+    padding: 1px;
+}
+
+.CoverArt {
+    flex: 2;
+}
+
+.Details {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.AlbumTitle {
+    flex: 1;
+}
+
+.ArtistName {
+    flex: 1;
+}
+
+.AlbumYear {
+    flex: 1;
+}
+
+.AlbumGenre {
+    flex: 1;
 }

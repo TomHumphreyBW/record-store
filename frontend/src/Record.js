@@ -17,10 +17,35 @@ import './Record.css';
 
 const Details = ({details}) => {
     return <div className="Details">
-        Album Title
-        Artist
+        <AlbumTitle />
+        <ArtistName />
+        <AlbumYear />
+        <AlbumGenre />
+    </div>
+}
+
+const AlbumTitle = ({title}) => {
+    return <div className="Title">
+        Title
+    </div>
+}
+
+const ArtistName = ({artist}) => {
+    return <div className="Artist">
+        Artist 
+    </div>
+}
+
+const AlbumYear = ({year}) => {
+    return <div className="Year">
         Year
+    </div>
+}
+
+const AlbumGenre = ({genre}) => {
+    return <div className="Genre">
         Genre
     </div>
 }
+
  export default Record;

@@ -6,8 +6,5 @@
   right: 0;
   padding: 20px;
   display: flex;
-}
-
-div {
-  border: 1px solid black;
+  background-color: rgb(227, 213, 213);
 }
