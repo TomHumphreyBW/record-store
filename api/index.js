@@ -8,9 +8,7 @@ const fsReadFile = util.promisify(fs.readFile)
 
 const port = 3000
 
-app.use(cors({
-  'Access-Control-Allow-Origin': '*'
-}))
+app.use(cors())
 
 // loading routes, to tell express that when someone hits one of these, we want the attached callback to run
 app.get('/', (req, res) => res.send('Hello World'))
