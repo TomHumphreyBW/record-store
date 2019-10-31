@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const url = 'localhost:3000';
+const url = 'http://localhost:3000';
 
 function getRecords() {
     return axios.get(`${url}/records`)
