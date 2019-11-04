@@ -12,6 +12,12 @@
     padding: 1px;
 }
 
+.CoverArt__image {
+    width: 100px;
+    height: 100px;
+    flex: 1;
+}
+
 .CoverArt {
     flex: 2;
 }

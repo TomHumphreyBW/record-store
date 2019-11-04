@@ -2,16 +2,17 @@ import React from 'react';
 import './Record.css';
 
 //
- const Record = ({id}) => {
+ const Record = (props) => {
+     console.log(props)
      return <div className="Record">
-         <CoverArt />
+         <CoverArt image={props.coverArt}/>
          <Details />
      </div>
  }
 
  const CoverArt = ({image}) => {
     return <div className="CoverArt">
-        image
+        <img src={`/assets/coverArt/${image}`} alt='coverArt' className="CoverArt__image"/> 
     </div>
 }
 
