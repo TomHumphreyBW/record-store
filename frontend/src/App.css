@@ -7,4 +7,5 @@
   padding: 20px;
   display: flex;
   background-color: rgb(227, 213, 213);
+  flex-direction: column;
 }

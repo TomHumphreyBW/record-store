@@ -2,7 +2,7 @@
     "records": [
         {
             "artist": "Pink Floyd",
-            "albumName": "Wish You Were Here",
+            "albumTitle": "Wish You Were Here",
             "year": "1975",
             "genre": "Progressive Rock",
             "price": "£9.99",
@@ -10,11 +10,67 @@
         },
         {
             "artist": "Tool",
-            "albumName": "Aenima",
+            "albumTitle": "Aenima",
             "year": "1996",
             "genre": "Progressive Rock",
             "price": "£9.99",
             "coverArt": "aenima.jpeg"
+        },
+        {
+            "artist": "The Mars Volta",
+            "albumTitle": "Deloused in the Comatorium",
+            "year": "2003",
+            "genre": "Progressive Rock",
+            "price": "£9.99",
+            "coverArt": "deloused.jpeg"
+        },
+        {
+            "artist": "Rush",
+            "albumTitle": "Moving Pictures",
+            "year": "1981",
+            "genre": "Progressive Rock",
+            "price": "£9.99",
+            "coverArt": "movingpictures.jpeg"
+        },
+        {
+            "artist": "Opeth",
+            "albumTitle": "Ghost Reveries",
+            "year": "2005",
+            "genre": "Progressive Rock",
+            "price": "£9.99",
+            "coverArt": "reveries.jpeg"
+        },
+        {
+            "artist": "Genesis",
+            "albumTitle": "The Lamb Lies Down on Broadway",
+            "year": "1974",
+            "genre": "Progressive Rock",
+            "price": "£9.99",
+            "coverArt": "lamb.jpeg"
+        },
+        {
+            "artist": "Yes",
+            "albumTitle": "Fragile",
+            "year": "1971",
+            "genre": "Progressive Rock",
+            "price": "£9.99",
+            "coverArt": "fragile.jpeg"
+        },
+        {
+            "artist": "King Crimson",
+            "albumTitle": "In the Court of the Crimson King",
+            "year": "1974",
+            "genre": "Progressive Rock",
+            "price": "£9.99",
+            "coverArt": "crimsonking.jpeg"
+        },
+        {
+            "artist": "Metallica",
+            "albumTitle": "Master of Puppets",
+            "year": "1986",
+            "genre": "Metal",
+            "price": "£9.99",
+            "coverArt": "masterofpuppets.jpeg"
         }
     ]
 }

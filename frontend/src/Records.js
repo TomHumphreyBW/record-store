@@ -1,30 +1,44 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import Record from './Record.js';
 import './Records.css';
+import {getRecords} from './request.js';
 
-const records = [
-    {
-        "artist": "Pink Floyd",
-        "albumName": "Wish You Were Here",
-        "year": "1975",
-        "genre": "Progressive Rock",
-        "price": "£9.99",
-        "coverArt": "wishyouwerehere.jpeg"
-    },
-    {
-        "artist": "Tool",
-        "albumName": "Aenima",
-        "year": "1996",
-        "genre": "Progressive Rock",
-        "price": "£9.99",
-        "coverArt": "aenima.jpeg"
-    }
-];
-//
- const Records = () => {
+ const Records = ({searchText}) => {
+    const [records, setRecords] = useState([])
+     useEffect(() => {
+       getRecords().then(records => {
+            setRecords(records)
+       })
+     }, []);
+
+     const filteredRecords = records.filter(record => {
+        if (searchText === '') {
+            return true
+        }
+
+        if (searchText.toLowerCase() === record.albumTitle.toLowerCase()) {
+           return true
+        }
+        return false;
+    });
+
+     // this should probably go in its own api error component
+     if (!Array.isArray(records)) {
+         return <div className="error">
+             Could not retrieve Records
+         </div>
+     }
+
      return <div className="Records">
-         {records.map((item) => {
-             return <Record {...item} 
+         {filteredRecords.map((item) => {
+             return <Record
+                key={`${item.albumTitle}-${item.artist}`}
+                artist={item.artist}
+                albumTitle={item.albumTitle}
+                year={item.year}
+                genre={item.genre}
+                price={item.price}
+                coverArt={item.coverArt}
              />
          })}
      </div>
