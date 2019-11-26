@@ -1,10 +1,19 @@
 .Record {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     margin: 14px;
     display: flex;
     flex-direction: column;
     background-color: white;
+}
+
+.Card {
+    margin: 14px;
+}
+
+.CardImage {
+    width: 200px;
+    height: 200px;
 }
 
 .Record div {

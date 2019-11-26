@@ -15,7 +15,6 @@ import {getRecords} from './request.js';
         if (searchText === '') {
             return true
         }
-
         if (searchText.toLowerCase() === record.albumTitle.toLowerCase()) {
            return true
         }
