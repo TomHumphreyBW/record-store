@@ -1,31 +1,48 @@
 import React, {useState} from 'react';
-import Record from './Record.js';
 import './Searchbar.css';
+import SortDropdown from './SortDropdown.js';
+import {
+    TextInput,
+    TextInputIcon,
+    TextInputButton,
+    TooltipContent,
+    TooltipContext
+} from '@brandwatch/axiom-components';
 
 const Searchbar = ({setSearch}) => {
     const [innerSearch, setInnerSearch] = useState('') 
-     return <div className="Searchbar">
-         <form
-            onSubmit={ (event) => {
-                console.log('submitted');
-                event.preventDefault();
-                setSearch(innerSearch)
-            }} 
-        >
-            <input 
-                placeholder="Search albums"
-                type="text" 
-                onChange={(event) => {
-                    setInnerSearch(event.target.value)    
-                }}
-            />
-            <button 
-                type="submit"
+     return (
+        <div className="Searchbar">
+            <form
+                onSubmit={ (event) => {
+                    event.preventDefault();
+                    setSearch(innerSearch)
+                }} 
             >
-                Search
-            </button>
-        </form>
-     </div>
+                <TextInput 
+                    length="short"
+                    onChange={(event) => {
+                        setInnerSearch(event.target.value)  
+                    }}
+                    placeholder="Search albums"
+                >
+                    <TextInputIcon align="left" name="magnify-glass" 
+                        tooltip={
+                            <TooltipContext color="carbon">
+                                <TooltipContent>
+                                    Search for an album
+                                </TooltipContent>
+                            </TooltipContext>
+                        }
+                    />
+                    <TextInputButton color="positive">
+                        Search
+                    </TextInputButton>
+                </TextInput>
+            </form>
+            <SortDropdown/>
+        </div>
+     );
  }
 
  export default Searchbar;

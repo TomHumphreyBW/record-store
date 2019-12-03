@@ -6,6 +6,8 @@
   right: 0;
   padding: 20px;
   display: flex;
-  background-color: rgb(227, 213, 213);
+  background-color: rgb(193, 206, 186);
   flex-direction: column;
+  background-image: url(https://wallpaperplay.com/walls/full/2/3/0/86805.jpg);
+  background-repeat: round;
 }

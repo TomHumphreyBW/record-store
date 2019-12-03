@@ -1,3 +1,5 @@
+// reference file, Details not being used any more
+
 import React from 'react';
 import PropTypes from 'prop-types';
 import AlbumTitle from './AlbumTitle';

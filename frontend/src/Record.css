@@ -61,3 +61,11 @@
     margin-right: auto;
     width: 50%;
   }
+
+  .ArtistItem {
+      overflow: hidden;
+  }
+
+  .RecordCardContent {
+      max-width: 200px;
+  }

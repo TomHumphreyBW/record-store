@@ -13,10 +13,13 @@ import {getRecords} from './request.js';
 
      const filteredRecords = records.filter(record => {
         if (searchText === '') {
-            return true
+            return true;
         }
-        if (searchText.toLowerCase() === record.albumTitle.toLowerCase()) {
-           return true
+        
+        const recordProps = [record.albumTitle, record.year, record.artist, record.genre]
+
+        if (recordProps.some((prop) => prop.toLowerCase() ===  searchText.toLowerCase())) {
+            return true;
         }
         return false;
     });
