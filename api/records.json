@@ -12,7 +12,7 @@
             "artist": "Tool",
             "albumTitle": "Aenima",
             "year": "1996",
-            "genre": "Progressive Rock",
+            "genre": "Progressive Metal",
             "price": "£9.99",
             "coverArt": "aenima.jpeg"
         },
@@ -36,7 +36,7 @@
             "artist": "Opeth",
             "albumTitle": "Ghost Reveries",
             "year": "2005",
-            "genre": "Progressive Rock",
+            "genre": "Progressive Metal",
             "price": "£9.99",
             "coverArt": "reveries.jpeg"
         },
@@ -71,6 +71,102 @@
             "genre": "Metal",
             "price": "£9.99",
             "coverArt": "masterofpuppets.jpeg"
+        }, 
+        {
+            "artist": "Iron Maiden",
+            "albumTitle": "Somewhere In Time",
+            "year": "1986",
+            "genre": "Metal",
+            "price": "£9.99",
+            "coverArt": "somewhereintime.jpeg"
+        },
+        {
+            "artist": "Rage Against The Machine",
+            "albumTitle": "Rage Against The Machine",
+            "year": "1992",
+            "genre": "Rap/Rock",
+            "price": "£9.99",
+            "coverArt": "ratm.jpeg"
+        },
+        {
+            "artist": "Monolord",
+            "albumTitle": "No Comfort",
+            "year": "2019",
+            "genre": "Sludge Metal",
+            "price": "£9.99",
+            "coverArt": "monolord.jpeg"
+        },
+        {
+            "artist": "Van Halen",
+            "albumTitle": "1984",
+            "year": "1984",
+            "genre": "Rock",
+            "price": "£9.99",
+            "coverArt": "VH1984.jpeg"
+        },
+        {
+            "artist": "Elder",
+            "albumTitle": "Lore",
+            "year": "2015",
+            "genre": "Stoner Rock",
+            "price": "£9.99",
+            "coverArt": "lore.jpeg"
+        },
+        {
+            "artist": "Beyond Creation",
+            "albumTitle": "Algorythm",
+            "year": "2019",
+            "genre": "Death Metal",
+            "price": "£9.99",
+            "coverArt": "algorythm.jpeg"
+        },
+        {
+            "artist": "Deftones",
+            "albumTitle": "White Pony",
+            "year": "2000",
+            "genre": "Alternative Metal",
+            "price": "£9.99",
+            "coverArt": "whitepony.jpeg"
+        },
+        {
+            "artist": "System of a Down",
+            "albumTitle": "Toxicity",
+            "year": "2000",
+            "genre": "Alternative Metal",
+            "price": "£9.99",
+            "coverArt": "toxicity.jpeg"
+        },
+        {
+            "artist": "Windhand",
+            "albumTitle": "SOMA",
+            "year": "2013",
+            "genre": "Sludge Metal",
+            "price": "£9.99",
+            "coverArt": "soma.jpeg"
+        },
+        {
+            "artist": "Vektor",
+            "albumTitle": "Terminal Redux",
+            "year": "2016",
+            "genre": "Thrash Metal",
+            "price": "£9.99",
+            "coverArt": "terminalredux.jpeg"
+        },
+        {
+            "artist": "Artificial Brain",
+            "albumTitle": "Labyrinth Constellation",
+            "year": "2014",
+            "genre": "Death Metal",
+            "price": "£9.99",
+            "coverArt": "labconst.jpeg"
+        },
+        {
+            "artist": "Mahavishnu Orchestra",
+            "albumTitle": "The Inner Mounting Flame",
+            "year": "1971",
+            "genre": "Jazz Fusion",
+            "price": "£9.99",
+            "coverArt": "flame.jpeg"
         }
     ]
 }
