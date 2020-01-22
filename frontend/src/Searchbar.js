@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import './Searchbar.css';
 import SortDropdown from './SortDropdown.js';
 import {
@@ -9,24 +9,24 @@ import {
     TooltipContext
 } from '@brandwatch/axiom-components';
 
-const Searchbar = ({setSearch}) => {
-    const [innerSearch, setInnerSearch] = useState('') 
-     return (
+const Searchbar = ({ setSearch, setSort, sort }) => {
+    const [innerSearch, setInnerSearch] = useState('')
+    return (
         <div className="Searchbar">
             <form
-                onSubmit={ (event) => {
+                onSubmit={(event) => {
                     event.preventDefault();
                     setSearch(innerSearch)
-                }} 
+                }}
             >
-                <TextInput 
+                <TextInput
                     length="short"
                     onChange={(event) => {
-                        setInnerSearch(event.target.value)  
+                        setInnerSearch(event.target.value)
                     }}
                     placeholder="Search albums"
                 >
-                    <TextInputIcon align="left" name="magnify-glass" 
+                    <TextInputIcon align="left" name="magnify-glass"
                         tooltip={
                             <TooltipContext color="carbon">
                                 <TooltipContent>
@@ -40,9 +40,12 @@ const Searchbar = ({setSearch}) => {
                     </TextInputButton>
                 </TextInput>
             </form>
-            <SortDropdown/>
+            <SortDropdown
+                setSort={setSort}
+                sort={sort}
+            />
         </div>
-     );
- }
+    );
+}
 
- export default Searchbar;
+export default Searchbar;

@@ -1,13 +1,13 @@
 .App {
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
   padding: 20px;
   display: flex;
   background-color: rgb(193, 206, 186);
   flex-direction: column;
-  background-image: url(https://wallpaperplay.com/walls/full/2/3/0/86805.jpg);
+  background-image: url(http://wallpaperplay.com/walls/full/2/3/0/86805.jpg);
   background-repeat: round;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
