@@ -46,6 +46,7 @@ const Records = ({ searchText, sort }) => {
     return <div className="Records">
         {sortedRecords.map((item) => {
             return <Record
+                id={item.id}
                 key={`${item.albumTitle}-${item.artist}`}
                 artist={item.artist}
                 albumTitle={item.albumTitle}

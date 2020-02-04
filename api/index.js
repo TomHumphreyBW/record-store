@@ -20,4 +20,17 @@ app.get('/records', (req, res) => {
       return res.send(buffer)
     }).catch((err) => console.err(err))
 })
+app.get('/records/:id', (req, res) => {
+  return fsReadFile([__dirname, 'records.json'].join('/'), 'utf8')
+    .then(buffer => {
+      const { records } = JSON.parse(buffer)
+
+      const foundRecord = records.find(record => {
+        return record.id === parseInt(req.params.id)
+      })
+
+      res.setHeader('Content-Type', 'application/json')
+      return res.send(foundRecord)
+    }).catch((err) => console.err(err))
+})
 app.listen(port, () => console.log(`Example app listening on port ${port}`))

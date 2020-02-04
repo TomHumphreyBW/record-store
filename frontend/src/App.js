@@ -1,22 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
-import Records from './Records';
-import Searchbar from './Searchbar';
+import Router from './Router';
 
 function App() {
-  const [search, setSearch] = useState('')
-  const [sort, setSort] = useState('')
   return (
     <div className="App ax-theme--day">
-      <Searchbar
-        setSearch={setSearch}
-        setSort={setSort}
-        sort={sort}
-      />
-      <Records
-        searchText={search}
-        sort={sort}
-      />
+      <Router />
     </div>
   );
 }

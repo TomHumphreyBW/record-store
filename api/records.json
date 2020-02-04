@@ -1,6 +1,7 @@
 {
     "records": [
         {
+            "id": 1,
             "artist": "Pink Floyd",
             "albumTitle": "Wish You Were Here",
             "year": "1975",
@@ -9,6 +10,7 @@
             "coverArt": "wishyouwerehere.jpeg"
         },
         {
+            "id": 2,
             "artist": "Tool",
             "albumTitle": "Aenima",
             "year": "1996",
@@ -17,6 +19,7 @@
             "coverArt": "aenima.jpeg"
         },
         {
+            "id": 3,
             "artist": "The Mars Volta",
             "albumTitle": "Deloused in the Comatorium",
             "year": "2003",
@@ -25,6 +28,7 @@
             "coverArt": "deloused.jpeg"
         },
         {
+            "id": 4,
             "artist": "Rush",
             "albumTitle": "Moving Pictures",
             "year": "1981",
@@ -33,6 +37,7 @@
             "coverArt": "movingpictures.jpeg"
         },
         {
+            "id": 5,
             "artist": "Opeth",
             "albumTitle": "Ghost Reveries",
             "year": "2005",
@@ -41,6 +46,7 @@
             "coverArt": "reveries.jpeg"
         },
         {
+            "id": 6,
             "artist": "Genesis",
             "albumTitle": "The Lamb Lies Down on Broadway",
             "year": "1974",
@@ -49,6 +55,7 @@
             "coverArt": "lamb.jpeg"
         },
         {
+            "id": 7,
             "artist": "Yes",
             "albumTitle": "Fragile",
             "year": "1971",
@@ -57,6 +64,7 @@
             "coverArt": "fragile.jpeg"
         },
         {
+            "id": 8,
             "artist": "King Crimson",
             "albumTitle": "In the Court of the Crimson King",
             "year": "1974",
@@ -65,6 +73,7 @@
             "coverArt": "crimsonking.jpeg"
         },
         {
+            "id": 9,
             "artist": "Metallica",
             "albumTitle": "Master of Puppets",
             "year": "1986",
@@ -73,6 +82,7 @@
             "coverArt": "masterofpuppets.jpeg"
         }, 
         {
+            "id": 10,
             "artist": "Iron Maiden",
             "albumTitle": "Somewhere In Time",
             "year": "1986",
@@ -81,6 +91,7 @@
             "coverArt": "somewhereintime.jpeg"
         },
         {
+            "id": 11,
             "artist": "Rage Against The Machine",
             "albumTitle": "Rage Against The Machine",
             "year": "1992",
@@ -89,6 +100,7 @@
             "coverArt": "ratm.jpeg"
         },
         {
+            "id": 12,
             "artist": "Monolord",
             "albumTitle": "No Comfort",
             "year": "2019",
@@ -97,6 +109,7 @@
             "coverArt": "monolord.jpeg"
         },
         {
+            "id": 13,
             "artist": "Van Halen",
             "albumTitle": "1984",
             "year": "1984",
@@ -105,6 +118,7 @@
             "coverArt": "VH1984.jpeg"
         },
         {
+            "id": 14,
             "artist": "Elder",
             "albumTitle": "Lore",
             "year": "2015",
@@ -113,6 +127,7 @@
             "coverArt": "lore.jpeg"
         },
         {
+            "id": 15,
             "artist": "Beyond Creation",
             "albumTitle": "Algorythm",
             "year": "2019",
@@ -121,6 +136,7 @@
             "coverArt": "algorythm.jpeg"
         },
         {
+            "id": 16,
             "artist": "Deftones",
             "albumTitle": "White Pony",
             "year": "2000",
@@ -129,6 +145,7 @@
             "coverArt": "whitepony.jpeg"
         },
         {
+            "id": 17,
             "artist": "System of a Down",
             "albumTitle": "Toxicity",
             "year": "2000",
@@ -137,6 +154,7 @@
             "coverArt": "toxicity.jpeg"
         },
         {
+            "id": 18,
             "artist": "Windhand",
             "albumTitle": "SOMA",
             "year": "2013",
@@ -145,6 +163,7 @@
             "coverArt": "soma.jpeg"
         },
         {
+            "id": 19,
             "artist": "Vektor",
             "albumTitle": "Terminal Redux",
             "year": "2016",
@@ -153,6 +172,7 @@
             "coverArt": "terminalredux.jpeg"
         },
         {
+            "id": 20,
             "artist": "Artificial Brain",
             "albumTitle": "Labyrinth Constellation",
             "year": "2014",
@@ -161,6 +181,7 @@
             "coverArt": "labconst.jpeg"
         },
         {
+            "id": 21,
             "artist": "Mahavishnu Orchestra",
             "albumTitle": "The Inner Mounting Flame",
             "year": "1971",
