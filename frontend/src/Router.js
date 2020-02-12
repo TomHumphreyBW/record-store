@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Records from './Records';
 import ItemPage from './ItemPage';
+import AccountPage from './AccountPage';
+import Account from './Account';
 import Searchbar from './Searchbar';
 import {
     BrowserRouter,
@@ -8,6 +10,7 @@ import {
     Route,
     Link
 } from 'react-router-dom';
+import { Icon } from '@brandwatch/axiom-components';
 
 function Router() {
     const [search, setSearch] = useState('')
@@ -15,19 +18,30 @@ function Router() {
     return (
         <BrowserRouter>
             <div>
-                <ul>
+                <ul style={{ listStyleType:"none" }}>
                     <li>
-                        <Link to="/">Home</Link>
+                        <Link to="/">
+                            <Icon name="home" size="2rem" color="white" />
+                        </Link>
                     </li>
                     <li>
-                        <Link to="/records">Records</Link>
+                        <Link to="/records">
+                            <Icon name="folder" size="2rem" color="white" />
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/account">
+                            <Icon name="user" size="2rem" color="white" />
+                        </Link>
                     </li>
                 </ul>
+                <Route exact path='/Records'>
                 <Searchbar
                     setSearch={setSearch}
                     setSort={setSort}
                     sort={sort}
                 />
+                </Route>
                 <hr />
             </div>
 
@@ -38,13 +52,16 @@ function Router() {
                         sort={sort}
                     />
                 </Route>
+
                 <Route exact path='/Records/:id'>
-                    <ItemPage>
-                        One Record
-                    </ItemPage>
+                    <ItemPage />
+                </Route>
+            
+                <Route exact path='/Account'>
+                    <AccountPage />
                 </Route>
             </Switch>
-        </BrowserRouter>
+        </BrowserRouter >
     );
 }
 
