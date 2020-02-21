@@ -6,7 +6,6 @@ import PropTypes from 'prop-types';
 const AccountPage = () => {
     return (
         <div className="User Account Page">
-            something
         </div>
     );
 };
